@@ -26,8 +26,7 @@ vi:
       order: "Đơn hàng"
       chart_analysis: "Biểu đồ phân tích"
       profit_statistics: "Thống kê lợi nhuận"
-      shipping_analysis: "Thống kê vận chuyển"
-      shipping_management: "Quản lý giao hàng"
+      Chat: "Tin nhan"
     footer:
       assistant: "Hỗ trợ miễn phí"
       refund: "100% HOÀN TIỀN"
@@ -79,6 +78,7 @@ vi:
   carts:
     index:
       my_cart: "Giỏ hàng của tôi"
+      product: "Sản phẩm"
       name: "Tên"
       image: "Hình ảnh"
       price: "Giá"

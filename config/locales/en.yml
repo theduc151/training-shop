@@ -24,10 +24,9 @@ en:
       user: "User"
       category: "Category"
       order: "Order"
-      chart_analysis: "Chart analysis"
+      payment_method: "Payment method"
       profit_statistics: "Profit statistics"
-      shipping_analysis: "Shipping analysis"
-      shipping_management: "Shipping Management"
+      chat: "Chat"
     footer:
       assistant: "Assistant"
       refund: "100% REFUND"
@@ -79,6 +78,7 @@ en:
   carts:
     index:
       my_cart: "My Cart"
+      product: "Product"
       name: "Name"
       image: "Image"
       price: "Price"
