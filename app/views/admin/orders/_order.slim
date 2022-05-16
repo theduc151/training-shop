@@ -9,3 +9,10 @@ tbody
           td= t("orders.order.pending")
         -else 
           td= t("orders.order.completed")
+  tr 
+    td 
+      | Customer:   
+      = order.user.name
+    td 
+      | total:    
+      = order.total   
