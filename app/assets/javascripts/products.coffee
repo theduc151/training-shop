@@ -68,6 +68,10 @@ $(document).ready ->
       data: {
         item_carts: item_carts,
       }
-      typeData: 'json'
+      typeData: 'json',
+      success: (data) ->
+        alert 'Update cart success',
+      failure: (data) ->
+        alert 'Update cart failed',
     return
   return

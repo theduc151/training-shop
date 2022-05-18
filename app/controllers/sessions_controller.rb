@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     if user&.authenticate(params[:session][:password])
       log_in user
       params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-      redirect_to(request.referer || products_path)
+      redirect_to(products_path || request.referer)
     else
       flash.now[:danger] = t("flash.danger.invalid_login")
       render "new"
